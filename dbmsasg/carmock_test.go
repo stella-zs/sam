@@ -2,13 +2,12 @@ package dbmsasg
 
 import (
 	"dbms/driver"
-
 	"github.com/DATA-DOG/go-sqlmock"
 	"testing"
 )
 
 package dbmsasg
-
+/*
 import (
 	"dbms/driver"
 	"fmt"
@@ -17,6 +16,7 @@ import (
 	"github.com/DATA-DOG/go-sqlmock"
 	_ "github.com/DATA-DOG/go-sqlmock"
 )
+*/
 
 func TestSet(t *testing.T) {
 	testcases := []struct {
